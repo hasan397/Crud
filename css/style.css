@@ -1,0 +1,75 @@
+.bg-blue {
+  width: fit-content;
+  margin: auto;
+  background-color: #fec260;
+  font-family: "Pacifico", cursive;
+  padding: 5px;
+  font-size: 50px;
+  font-weight: 500;
+  color: rgb(53, 46, 40);
+}
+body{
+    background-color: #f7ecde;
+}
+.content{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding-bottom: 50px;
+    border-block: 2.5px dotted black;
+}
+.linear{
+    padding-top: 40px;
+    font-family: "Righteous", sans-serif;
+    background-image: linear-gradient(to right , #3ca55c, #b5ac49);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px;
+}
+label{
+    font-weight: 600;
+    color: rgb(33, 37, 41);
+    font-family:"Pacifico", sans-serif ;
+}
+.btn-orange{
+    background-color: #d1512d;
+    outline: white;
+    color: white;
+    margin-block:20px ;
+    padding: 10px 40px;
+}
+button.btn-orange:hover{
+    background-color: #bb4120;
+    color: white;
+}
+.layer{
+    position: absolute;
+    inset: 0;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)) ;
+    display: none;
+}
+.dot{
+    width: 20px;
+    height: 20px;
+    margin-inline: 5px;
+}
+i.fa-close{
+    cursor: pointer;
+}
+.cont{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.layer p{
+    padding-top: 10px;
+    font-family: "Righteous", sans-serif;
+    font-size: 21px;
+}
+.fa-regular.fa-circle-right.p-2{
+    color: #d1512d;
+    font-size: 20px;
+}
